@@ -1,7 +1,3 @@
--::
-Send +-
-return
-
 1::
 Send +1
 return
