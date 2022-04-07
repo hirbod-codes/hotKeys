@@ -37,3 +37,30 @@ return
 0::
 Send +0
 return
+
+::___phpClosure::
+(
+function functionName($arg) use($otherArg): void {
+}
+)
+
+::___phpFun::
+(
+function functionName($arg): void
+{
+}
+)
+
+::___phpPubFun::
+(
+    public function functionName($arg): void
+{
+}
+)
+
+::___phpPriFun::
+(
+    private function functionName($arg): void
+{
+}
+)
