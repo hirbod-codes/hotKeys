@@ -38,29 +38,41 @@ return
 Send +0
 return
 
+::___phpCon::
+(
+    public function __construce()
+{
+}
+)
+
+::___phpDefFun::
+(
+function functionName(): void;
+)
+
 ::___phpClosure::
 (
-function functionName($arg) use($otherArg): void {
+function (): void {
 }
 )
 
 ::___phpFun::
 (
-function functionName($arg): void
+function functionName(): void
 {
 }
 )
 
 ::___phpPubFun::
 (
-    public function functionName($arg): void
+    public function functionName(): void
 {
 }
 )
 
 ::___phpPriFun::
 (
-    private function functionName($arg): void
+    private function functionName(): void
 {
 }
 )
