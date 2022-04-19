@@ -38,6 +38,14 @@ return
 Send +0
 return
 
+,::
+Send +,
+return
+
+.::
+Send +.
+return
+
 ::___phpCon::
 (
     public function __construce()
